@@ -23,6 +23,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.2",
     "winston": "^3.13.1",
-    "winston-daily-rotate-file": "^5.0.0"
+    "winston-daily-rotate-file": "^5.0.0",
+    "ws": "^8.18.0"
   }
 }
