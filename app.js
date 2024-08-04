@@ -7,13 +7,8 @@ import dropRoutes from "./routes/dropRoutes.js";
 const app = express();
 app.use(express.json());
 
-// CORS configuration
-const corsOptions = {
-  origin: "http://localhost:3000",
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
-  credentials: true,
-  optionsSuccessStatus: 204,
-};
+// Allow all CORS connections
+app.use(cors());
 
 app.use(cors(corsOptions));
 
